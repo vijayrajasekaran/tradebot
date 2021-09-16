@@ -1,0 +1,51 @@
+{
+  "name": "tradebot",
+  "version": "0.0.1",
+  "description": "Trading Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lint -s & node ./index.js",
+    "lint": "eslint ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayrajasekaran/tradebot.git"
+  },
+  "author": "Vijay Rajasekaran",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/vijayrajasekaran/tradebot/issues"
+  },
+  "homepage": "https://github.com/vijayrajasekaran/tradebot#readme",
+  "dependencies": {
+    "@heroicons/react": "^1.0.3",
+    "autoprefixer": "^10.3.1",
+    "binance-api-node": "^0.11.9",
+    "boom": "^7.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "^7.24.0",
+    "fastify": "^3.19.2",
+    "fastify-cors": "^6.0.2",
+    "fastify-formbody": "^5.1.0",
+    "fastify-nextjs": "https://github.com/vijayrajasekaran/fastify-nextjs",
+    "fastify-plugin": "^3.0.0",
+    "mongoose": "^5.13.3",
+    "next": "^11.0.1",
+    "node-cache": "^5.1.2",
+    "point-of-view": "^4.15.1",
+    "postcss": "^8.3.6",
+    "pug": "^3.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.7",
+    "talib": "^1.1.4"
+  },
+  "devDependencies": {
+    "eslint": "7.12.1"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "openLong": [
+    {
+      "signal1": { "type": "indicator", "condition": "sma", "value": 20 },
+      "comparison": ">",
+      "signal2": { "type": "indicator", "condition": "sma", "value": 50 }
+    }
+  ],
+  "closeLong": [
+    {
+      "signal1": { "type": "indicator", "condition": "sma", "value": 20 },
+      "comparison": ">",
+      "signal2": { "type": "indicator", "condition": "sma", "value": 50 }
+    }
+  ],
+  "longStop": [
+    {
+      "signal1": "percentage",
+      "comparison": "<",
+      "signal2": 2
+    }
+  ],
+  "openShort": [
+    {
+      "signal1": { "type": "indicator", "condition": "sma", "value": 20 },
+      "comparison": "<",
+      "signal2": { "type": "indicator", "condition": "sma", "value": 50 }
+    }
+  ],
+  "closeShort": [
+    {
+      "signal1": { "type": "indicator", "condition": "sma", "value": 20 },
+      "comparison": "<",
+      "signal2": { "type": "indicator", "condition": "sma", "value": 50 }
+    }
+  ],
+  "shortStop": [
+    {
+      "signal1": "percentage",
+      "comparison": "<",
+      "signal2": 2
+    }
+  ]
+}

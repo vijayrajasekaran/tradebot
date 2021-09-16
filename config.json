@@ -1,0 +1,7 @@
+{
+  "exchange": "binance",
+  "symbol": "grtusdt",
+  "interval": "30m",
+  "period": 30,
+  "strategy": "sma"
+}
